@@ -1,0 +1,53 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+} */
+body {
+  margin: 0;
+font-size: 17px;
+line-height: 1.1;
+letter-spacing: 0.256em;
+font-weight: 500;
+font-style: normal;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid salmon; */
+}
+
+.card {
+  width: calc(40vw * (2 / 3));
+  border: 3px solid lightgreen;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.ratio-box {
+  width: 100%;
+  height: 0;
+  padding-top: calc(100% * (4 / 4));
+  position: relative;
+}
+
+.the-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+}
+
+figcaption {
+  padding: 1rem;
+}
